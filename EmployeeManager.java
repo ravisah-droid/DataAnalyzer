@@ -1,5 +1,9 @@
 package DataAnalyzer;
 
+//We define EmployeeManager class, 
+//which will manage employee data 
+//by adding, retrieving, filtering, and sorting employee details.
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -9,7 +13,8 @@ public class EmployeeManager {
     public EmployeeManager() {
         this.employeeData = new HashMap<>();
     }
-
+     
+    //adding employees
     public void addEmployee(Employee employee) {
         employeeData.put(employee.getId(), employee);
     }

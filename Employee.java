@@ -1,5 +1,9 @@
 package DataAnalyzer;
 
+//First, we will declare an Employee class 
+//which represents the employee's 
+//details like ID, name, departement, and salary.
+
     import java.util.Optional;
 
 public class Employee {
